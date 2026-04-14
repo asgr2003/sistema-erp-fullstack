@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #1f2937;
+  color: white;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 12px;
+  color: #d1d5db;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.sidebar-link:hover {
+  background: #374151;
+  color: white;
+}
+
+/* CARDS */
+.card {
+  border-radius: 16px;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+/* BOTONES */
+.btn {
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* DASHBOARD */
+.dashboard-card {
+  border-radius: 20px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+/* DARK MODE */
+.dark {
+  background: #111827;
+  color: white;
+}
+
+.dark .card {
+  background: #1f2937;
+  color: white;
+}
+
+.dark .sidebar {
+  background: #000;
+}
+
+/* LOGIN */
+.vh-100 {
+  height: 100vh;
+}
+.dark .text-muted {
+  color: #9ca3af !important;
+}
+
+.dark .text-secondary {
+  color: #d1d5db !important;
+}
+.dark .dashboard-card {
+  background: #1f2937;
+  color: #f9fafb;
+}

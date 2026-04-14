@@ -1,0 +1,20 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# .NET
+backend/bin/
+backend/obj/
+
+# Visual Studio
+backend/.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
