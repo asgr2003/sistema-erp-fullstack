@@ -59,10 +59,10 @@ Sistema ERP básico desarrollado con:
 ## ▶️ Cómo ejecutar
 
 ### Backend
-```bash
+
 dotnet run
 
-### Backend
+### Frontend
 
 npm install
 npm start
